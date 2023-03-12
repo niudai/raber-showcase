@@ -2,7 +2,7 @@ import { Canvas, getPage } from '@raber/react';
 import Head from 'next/head';
 import { Header } from '../components/eth/header';
 
-export default ({ data }) => (
+export default ({ data } : any) => (
 	<main>
 		<Head>
 			<title>Home | ethereum.org</title>

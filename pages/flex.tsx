@@ -2,7 +2,7 @@ import { Canvas, getPage } from "@raber/react";
 
 
 
-export default ({ data }) => (
+export default ({ data } : any) => (
 	<main>
 		<h1>Welcome to Next.js</h1>
 		<Canvas data={data} id="flex"></Canvas>

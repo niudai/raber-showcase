@@ -3,7 +3,7 @@ import { Header } from "../components/eth/header";
 
 
 
-export default ({ data }) => (
+export default ({ data }: any) => (
 	<main>
 		<Header />
 

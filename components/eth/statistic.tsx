@@ -54,8 +54,8 @@ export const AreaChartWithBackground = () => {
           <stop offset="100%" stopColor="#8884d8" stopOpacity={0} />
         </linearGradient>
       </defs>
-      <XAxis dataKey="name" tick={() => null} tickMargin={-20} axisLine={false} tickLine={false}/>
-      <YAxis hide={true} label="" tick={() => null} axisLine={false} tickLine={false}/>
+      <XAxis dataKey="name" tick={() => null as any} tickMargin={-20} axisLine={false} tickLine={false}/>
+      <YAxis hide={true} label="" tick={() => null as any} axisLine={false} tickLine={false}/>
       {/* <CartesianGrid strokeDasharray="" /> */}
       <Tooltip />
       <Area type="monotone" dataKey="uv" stroke="#8884d8" style={{

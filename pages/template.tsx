@@ -2,7 +2,7 @@ import { Canvas, getPage } from "@raber/react";
 
 
 
-export default ({ data }) => (
+export default ({ data } : any) => (
 	<main>
 		<Canvas data={data} id="template"></Canvas>
 	</main>

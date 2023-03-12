@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { EthereumCard } from '../components/eth/card';
 import { Chart } from '../components/eth/etheStat';
 
-export default ({ data }) => (
+export default ({ data } : any) => (
 	<main>
 		<Head>
 			<title>Home | ethereum.org</title>

@@ -80,12 +80,13 @@ const theme = extendTheme({
 
 
 
+// @ts-ignore
 export default function App({ Component, pageProps }) {
   return (
     <>
     <ChakraProvider theme={theme}>
       <Head>
-        <title>级大风级大风</title>
+        <title>Raber Showcases</title>
 
         <meta name="description" content="Make Your React App Visually Editable." />
         <link rel="icon" href="/icon.svg" />
