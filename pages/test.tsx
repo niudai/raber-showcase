@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { EthereumCard } from '../components/eth/card';
 import { Chart } from '../components/eth/etheStat';
 
-export default ({ data } : any) => (
+export default function Test({ data } : any) { (
 	<main>
 		<Head>
 			<title>Home | ethereum.org</title>
@@ -40,5 +40,5 @@ export default ({ data } : any) => (
 
 		{/* </div> */}
 	</main>
-)
+) }
 

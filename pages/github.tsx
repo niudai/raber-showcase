@@ -1,14 +1,15 @@
 import { Canvas, getPage } from "@raber/react";
 
-
-
-export default ({ data } : any) => (
-	<main>
-		<Canvas data={data} id="github"></Canvas>
-	</main>
-)
-
 export async function getStaticProps() {
 	const data = await getPage('github');
-	return { props: { data },  }
+	return { props: { data }, }
+}
+
+
+export default function Github({ data }: any) {
+	return (
+		<main>
+			<Canvas data={data} id="github"></Canvas>
+		</main>
+	)
 }
