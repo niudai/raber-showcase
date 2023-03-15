@@ -8,6 +8,14 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "workspaces": [
+    "apps/*"
+  ],
+  "pnpm": {
+    "overrides": {
+      "@raber/react": "latest"
+    }
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.4.9",

@@ -89,7 +89,6 @@ export default function App({ Component, pageProps }) {
         <title>Raber Showcases</title>
 
         <meta name="description" content="Make Your React App Visually Editable." />
-        <link rel="icon" href="/icon.svg" />
       </Head>
       <Component {...pageProps} />
       </ChakraProvider>
