@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@raber/react": "latest",
+    "@raber/react": "*",
     "react": "^17",
     "react-dom": "^17"
   },
