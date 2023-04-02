@@ -2,6 +2,7 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Head from 'next/head';
 import { defineStyleConfig } from '@chakra-ui/react';
 import '../global.css';
+import '@raber/react/src/index.css';
 import { initializeApp } from '@raber/react';
 import '../comps';
 
