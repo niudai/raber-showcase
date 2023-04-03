@@ -4,6 +4,31 @@
   }
 }
 
+/* 在移动端设备上覆盖样式 */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 48px !important;
+  }
+}
+
+.vercel-function-badge::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(170deg,rgba(0,0,0,.2) -6.28%,rgba(0,0,0,.4) 9.84%,#000 38.59%,rgba(0,0,0,.4) 66.93%,transparent 122.67%);
+  -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+  mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.center-card:hover {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
 :host, :root, html {
   --chakra-ring-inset: var(--chakra-empty,/*!*/ /*!*/);
   --chakra-ring-offset-width: 0px;
