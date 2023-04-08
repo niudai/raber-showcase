@@ -54,7 +54,6 @@ export const VButton = Comp(({
     // const styles = useStyle();
 
     const _variant = useString({
-        type: 'string',
         key: 'variant',
         default: variant,
         uiConfig: {
@@ -68,7 +67,6 @@ export const VButton = Comp(({
     })
 
     const colorScheme = useString({
-        type: 'string',
         key: 'colorScheme',
         default: 'blue',
         uiConfig: {
@@ -85,7 +83,6 @@ export const VButton = Comp(({
     })
 
     const size = useString({
-        type: 'string',
         key: 'size',
         default: 'md',
         uiConfig: {
@@ -101,7 +98,6 @@ export const VButton = Comp(({
 
 
     const _text = useString({
-        type: 'string',
         key: 'text',
         default: text,
         uiConfig: {
@@ -111,7 +107,6 @@ export const VButton = Comp(({
     })
 
     const href = useString({
-        type: 'string',
         key: 'href',
         default: '',
         uiConfig: {
