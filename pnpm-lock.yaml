@@ -11,7 +11,7 @@ importers:
       '@chakra-ui/react': ^2.4.9
       '@emotion/react': ^11.10.5
       '@emotion/styled': ^11.10.5
-      '@raber/react': ^0.0.34
+      '@raber/react': latest
       '@types/node': 18.15.0
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -28,7 +28,7 @@ importers:
       '@chakra-ui/react': 2.5.1_u2ncbuhn2wsnc7epp3ngi7slxm
       '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
       '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
-      '@raber/react': 0.0.34_react@18.2.0
+      '@raber/react': 0.0.36_react@18.2.0
       '@types/node': 18.15.0
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -56,7 +56,7 @@ importers:
       recharts: ^2.4.3
       typescript: 4.9.5
     dependencies:
-      '@raber/react': 0.0.33_react@17.0.2
+      '@raber/react': 0.0.36_react@17.0.2
       eslint: 8.36.0
       eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
       framer-motion: 8.5.5_sfoxds7t5ydpegc3knd667wn6m
@@ -93,7 +93,7 @@ importers:
       '@chakra-ui/react': 2.5.1_u2ncbuhn2wsnc7epp3ngi7slxm
       '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
       '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
-      '@raber/react': 0.0.33_react@18.2.0
+      '@raber/react': 0.0.36_react@18.2.0
       '@types/node': 18.15.0
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -117,7 +117,7 @@ importers:
       typescript: ^4.9.3
       vite: ^4.1.0
     dependencies:
-      '@raber/react': 0.0.33_react@17.0.2
+      '@raber/react': 0.0.36_react@17.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
@@ -138,7 +138,7 @@ importers:
       typescript: ^4.9.3
       vite: ^4.1.0
     dependencies:
-      '@raber/react': 0.0.33_react@18.2.0
+      '@raber/react': 0.0.36_react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -1996,24 +1996,16 @@ packages:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
-  /@raber/react/0.0.33_react@17.0.2:
-    resolution: {integrity: sha512-XNzGa+E/UV6hpUlASfTCy7PeDLTAypFqBMtc73Ubg770uVKsvivO007/Q5fz9+O+p77CM0Z/GUZX4efi3f0CxA==}
+  /@raber/react/0.0.36_react@17.0.2:
+    resolution: {integrity: sha512-4QJfwPv3s8NQTDCe4hhqepSeYrBWCXfK/JMLobB+akCyvBf62JKea/y32ND0G6td1hIZAHuvvTJv8tJ4er34Rg==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
     dependencies:
       react: 17.0.2
     dev: false
 
-  /@raber/react/0.0.33_react@18.2.0:
-    resolution: {integrity: sha512-XNzGa+E/UV6hpUlASfTCy7PeDLTAypFqBMtc73Ubg770uVKsvivO007/Q5fz9+O+p77CM0Z/GUZX4efi3f0CxA==}
-    peerDependencies:
-      react: ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
-    dev: false
-
-  /@raber/react/0.0.34_react@18.2.0:
-    resolution: {integrity: sha512-icG2SBnC2LRraAM5069l0ya2lCTcMVSYWtqS/XkgCVAC5E45H6GjZgwyhgDHZCOZMsAvluH4lBW754G8t0BjQQ==}
+  /@raber/react/0.0.36_react@18.2.0:
+    resolution: {integrity: sha512-4QJfwPv3s8NQTDCe4hhqepSeYrBWCXfK/JMLobB+akCyvBf62JKea/y32ND0G6td1hIZAHuvvTJv8tJ4er34Rg==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
     dependencies:
