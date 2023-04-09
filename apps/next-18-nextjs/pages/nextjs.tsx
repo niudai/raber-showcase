@@ -9,7 +9,6 @@ export async function getStaticProps() {
 export default function NextJS({ data }: any) {
 	return (
 		<main>
-			<h1>Welcome to Next.js</h1>
 			<Canvas data={data} id="nextjs"></Canvas>
 		</main>
 	)
