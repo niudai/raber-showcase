@@ -29,6 +29,7 @@ export const Header = () => {
                 (
                     <div className="h-20 border-b" style={{
                         position: 'sticky',
+                        zIndex: 999,
                         top: 0,
                         height: '4.75rem',
                         padding: '1rem 2rem',
