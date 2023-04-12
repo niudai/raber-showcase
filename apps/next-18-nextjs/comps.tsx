@@ -115,7 +115,7 @@ export const VButton = Comp(({
         },
     })
 
-    return <Button variant={_variant} onClick={() => {
+    return <Button variant={_variant} style={{ paddingLeft: 16, paddingRight: 16 }} onClick={() => {
         // go to href
         if (href) {
             window.open(href, '_blank')

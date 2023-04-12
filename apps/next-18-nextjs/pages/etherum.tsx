@@ -8,7 +8,6 @@ export async function getStaticProps() {
 export default function Etherum({ data }: any) {
 	return (
 		<main>
-			<h1>Welcome to Next.js</h1>
 			<Canvas data={data} id="ethereum"></Canvas>
 		</main>
 	)

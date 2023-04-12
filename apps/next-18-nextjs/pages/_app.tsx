@@ -1,14 +1,14 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Head from 'next/head';
 import { defineStyleConfig } from '@chakra-ui/react';
-import '../global.css';
 import '@raber/react/src/index.css';
+import '../global.css';
 import { initializeApp } from '@raber/react';
 import '../comps';
 
 
 initializeApp({
-	publicKey: 'ZXrA6EruQkdOmZXryEymXDihtSR2'
+  publicKey: 'ZXrA6EruQkdOmZXryEymXDihtSR2'
 })
 
 const Button = defineStyleConfig({
@@ -85,14 +85,14 @@ const theme = extendTheme({
 export default function App({ Component, pageProps }) {
   return (
     <>
-    <ChakraProvider theme={theme}>
-      <Head>
-        <title>Raber Showcases</title>
+      <ChakraProvider theme={theme}>
+        <Head>
+          <title>Raber Showcases</title>
 
-        <meta name="description" content="Make Your React App Visually Editable." />
-      </Head>
-      <Component {...pageProps} />
+          <meta name="description" content="Make Your React App Visually Editable." />
+        </Head>
+        <Component {...pageProps} />
       </ChakraProvider>
-      </>
+    </>
   )
 }
