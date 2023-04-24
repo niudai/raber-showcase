@@ -11,7 +11,7 @@ importers:
       '@chakra-ui/react': ^2.4.9
       '@emotion/react': ^11.10.5
       '@emotion/styled': ^11.10.5
-      '@raber/react': latest
+      '@raber/react': ^0.0.39
       '@types/node': 18.15.0
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -28,7 +28,7 @@ importers:
       '@chakra-ui/react': 2.5.1_u2ncbuhn2wsnc7epp3ngi7slxm
       '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
       '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
-      '@raber/react': 0.0.37_react@18.2.0
+      '@raber/react': 0.0.39_react@18.2.0
       '@types/node': 18.15.0
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -2006,6 +2006,14 @@ packages:
 
   /@raber/react/0.0.37_react@18.2.0:
     resolution: {integrity: sha512-TfxIJhAqHVyfQ8aLvi5C7isAboMB+JOpI+fb52lYi7CxNSIlxolayLQ72xIfh8dk0VKi4Xi1lZDyjOlz9dKwWA==}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
+  /@raber/react/0.0.39_react@18.2.0:
+    resolution: {integrity: sha512-cKacXU2xzYBfznyLQCsEMYnR9aaswQDu8+u/qJKOsvgBGRLlibzqkzJORPRqqARufn7TrmbSuscpeRHuXZtcsw==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
     dependencies:
